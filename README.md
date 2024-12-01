@@ -23,7 +23,6 @@
 #### Пример использования:
 
 ```swift
-import XCodePrefsHelper
 
 // Сохранить значение в UserDefaults
 PrefsHelper.UserDefaultsHelper.set(key: "username", value: "john_doe")
@@ -44,7 +43,6 @@ PrefsHelper.UserDefaultsHelper.delete(key: "username")
 #### Пример использования:
 
 ```swift
-import XCodePrefsHelper
 
 // Сохранить данные в Keychain
 PrefsHelper.KeychainHelper.save(key: "authToken", value: "abc123securetoken")
@@ -65,7 +63,6 @@ PrefsHelper.KeychainHelper.delete(key: "authToken")
 #### Пример использования:
 
 ```swift
-import XCodePrefsHelper
 
 let cloudKitHelper = PrefsHelper.CloudKitHelper()
 
